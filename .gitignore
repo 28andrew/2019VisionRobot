@@ -206,7 +206,7 @@ fabric.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar - This is required for vision dependencies
 *.war
 *.nar
 *.ear
