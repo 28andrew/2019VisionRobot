@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="2019VisionPractice-E.main" target="11" />
+      <module name="2019VisionPractice-E.robot.main" target="11" />
+      <module name="2019VisionPractice-E.robot.test" target="11" />
+      <module name="2019VisionPractice-E.test" target="11" />
+      <module name="2019VisionPractice-E.vision.main" target="11" />
+      <module name="2019VisionPractice-E.vision.test" target="11" />
+      <module name="2019VisionPractice.main" target="11" />
+      <module name="2019VisionPractice.test" target="11" />
+      <module name="Robot.bot.main" target="11" />
+      <module name="Robot.bot.test" target="11" />
+      <module name="Robot.main" target="11" />
+      <module name="Robot.robot.main" target="11" />
+      <module name="Robot.robot.test" target="11" />
+      <module name="Robot.test" target="11" />
+      <module name="Robot.vision.main" target="11" />
+      <module name="Robot.vision.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

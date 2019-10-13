@@ -1,0 +1,25 @@
+apply plugin: 'application'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+mainClassName = 'frc4277.robot.vision.Main'
+
+repositories {
+    flatDir {
+        dirs './libs/', '/usr/local/frc/java'
+    }
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.5'
+    compile name: 'wpiutil'
+    compile name: 'ntcore'
+    compile name: 'cscore'
+    compile name: 'cameraserver'
+    compile name: 'opencv-347'
+    compile name: 'wpilibj'
+    compile name: 'wpiHal'
+}
+
+shadowJar {
+    classifier = null
+}
